@@ -30,6 +30,8 @@ public class TesteView extends View {
         super(context, attrs);
         paintScreen = new Paint(); // used to display bitmap onto screen
         // set the initial display settings for the painted line
+
+        // TESTE -01
         paintLine = new Paint();
         paintLine.setAntiAlias(true); // smooth edges of drawn line
         paintLine.setColor(Color.RED); // default color is black
